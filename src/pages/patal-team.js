@@ -1,12 +1,7 @@
 import React from "react";
-import SEO from "~/src/components/atoms/SEO/SEO";
-import Navbar from "~/src/components/atoms/Navbar/Navbar";
-import Footer from "~/src/components/atoms/Footer/Footer";
+import { SEO, Navbar, Footer, MemberCard } from '"~/src/components/atoms";';
 
 import s from "~/assets/styles/teams/index.module.scss";
-
-import MemberCard from "~/src/components/atoms/MemberCard/MemberCard.js";
-
 import TeamData from "~/assets/data/teams.json";
 
 const PatalTeam = () => {
