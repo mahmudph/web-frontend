@@ -52,7 +52,7 @@ const NavbarDefault = () => {
                   Tentang
                 </Link>
               ) : (
-                <GatsbyLink to="/#tentang" className={s["NavLink"]}>
+                <GatsbyLink to="#tentang" className={s["NavLink"]}>
                   Tentang
                 </GatsbyLink>
               )}

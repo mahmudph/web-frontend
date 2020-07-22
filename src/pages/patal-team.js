@@ -1,8 +1,9 @@
 import React from "react";
-import { SEO, Navbar, Footer, MemberCard } from '"~/src/components/atoms";';
+import { SEO, Navbar, Footer, MemberCard } from "components/index";
+import { teamStyle as s, TeamData } from "assets/index";
 
-import s from "~/assets/styles/teams/index.module.scss";
-import TeamData from "~/assets/data/teams.json";
+// import s from "~/assets/styles/teams/index.module.scss";
+// import TeamData from "~/assets/data/teams.json";
 
 const PatalTeam = () => {
   return (

@@ -1,7 +1,18 @@
+const path = require('path')
+
 module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        components: path.join(__dirname, './src/components/atoms/'),
+        assets : path.join(__dirname, './assets/'),
+        event_data : path.join(__dirname, './src/content'),
+        pages: path.join(__dirname, './src/pages'),
+      }
+    }
   ],
   siteMetadata: {
     title: 'Home',

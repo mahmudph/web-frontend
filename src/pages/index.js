@@ -1,3 +1,4 @@
+import React from "react";
 import {
   SEO,
   Join,
@@ -10,7 +11,7 @@ import {
   Footer,
   Media,
   Sponsor,
-} from '"~/src/components/atoms";';
+} from "components/index";
 
 import "~/node_modules/bootstrap/dist/css/bootstrap.css";
 

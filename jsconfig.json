@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/components/atoms/*"],
+      "data_event/*": ["./content"],
+      "assets/*": ["./assets"],
+    }
+  },
+  "exclude": ["node_modules"]
+}
