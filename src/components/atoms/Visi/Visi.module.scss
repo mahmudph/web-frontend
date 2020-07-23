@@ -42,22 +42,22 @@
   }
 }
 
-@media (max-width: 700px) {
-  .visimisi {
+@media (max-width: 768px) {
+  #visi.visimisi {
     width: 90%;
     margin-bottom: 30px;
 
     h1 {
       font-size: 16px;
+      text-align: left;
     }
-
     p {
-      font-size: 11px !important;
+      font-size: 14px !important;
     }
   }
 }
 @media (max-width: 500px) {
-  .visimisi {
+  #visi.visimisi {
     h1,
     p {
       text-align: left;

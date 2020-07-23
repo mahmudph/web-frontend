@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./Sponsor.module.scss";
-import { Row, Col } from "reactstrap";
 import "lazysizes";
 
 function Sponsor() {

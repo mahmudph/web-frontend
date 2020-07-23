@@ -6,7 +6,7 @@ import { Container } from "reactstrap";
 const Title = ({ title, subtitle }) => {
   return (
     <div id={s["title"]}>
-      <Container className="themed-container title" fluid>
+      <Container fluid>
         <div>
           <h2>{subtitle}</h2>
           <h1>{title}</h1>

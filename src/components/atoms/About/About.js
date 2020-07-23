@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./About.module.scss";
 import { Container } from "reactstrap";
-import Title from "~/src/components/atoms/Title/Title";
+import Title from "components/Title/Title";
 
 const About = () => {
   return (
