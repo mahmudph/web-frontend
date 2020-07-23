@@ -5,8 +5,8 @@
     "baseUrl": ".",
     "paths": {
       "components/*": ["./src/components/atoms/*"],
-      "data_event/*": ["./content"],
-      "assets/*": ["./assets"],
+      "event_data/*": ["./src/content/*"],
+      "assets/*": ["./assets/*"],
     }
   },
   "exclude": ["node_modules"]
